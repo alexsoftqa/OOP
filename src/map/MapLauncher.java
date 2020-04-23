@@ -42,12 +42,12 @@ public class MapLauncher {
         return new TreeSet<>(wordSet);
     }
 
-    Comparator comparator = new Comparator() {
-        @Override
-        public int compare(Object o1, Object o2) {
-            return 0;
-        }
-    }
+//    Comparator comparator = new Comparator() {
+//        @Override
+//        public int compare(Object o1, Object o2) {
+//            return 0;
+//        }
+//    }
 
     private static void printSet(NavigableSet<WordWrapper> wordWrappers) {
         for (WordWrapper wordWrapper : wordWrappers) {
